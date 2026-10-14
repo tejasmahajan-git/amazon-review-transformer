@@ -1,0 +1,40 @@
+AMAZON CUSTOMER INTELLIGENCE
+PHASE 4: INITIAL EDA FINDINGS
+==================================================
+
+Dataset scope
+- Reviews analyzed: 5,000
+- Products represented: 4,509
+- The sample consists of the first 5,000 source records.
+- Findings describe the available sample, not all Amazon customers.
+
+Rating distribution
+- Average rating: 4.27/5.
+- Reviews rated 1 or 2 stars: 11.82%.
+- Five-star reviews represent 65.42% of valid ratings.
+
+Review volume over time
+- The highest-volume month in this sample is 2019-12 (103 reviews).
+- Monthly counts describe the sample's recorded dates; they do not necessarily measure actual platform-wide volume.
+
+Verified purchase comparison
+- Unverified: 1,650 reviews; average rating 4.36; 1-2 star rate 6.48%.
+- Verified: 3,350 reviews; average rating 4.23; 1-2 star rate 14.45%.
+- Differences are descriptive associations, not evidence that verification status causes a rating difference.
+
+Product comparisons
+- No products met the threshold of 20 sampled reviews.
+
+Sampling limitations
+- The dataset contains the first 5,000 source records. Record order may affect which reviews are included.
+- The results describe this sample and should not automatically be generalized to all Amazon Electronics reviews.
+- The five most-represented products account for 1.36% of all rows. Product concentration may cause the overall results to reflect a small number of products.
+- The first half has an average rating of 4.28; the second half has 4.27. A difference may indicate ordering effects, but does not prove sampling bias.
+- Median review dates by source order: first half = 2019-12-22 00:13:20.131500032, second half = 2019-08-17 13:02:53.401500160. If these differ substantially, the source order may also be time-related.
+- A first-record sample cannot establish population representativeness without knowing the source ordering and the population sampling process.
+
+Interpretation cautions
+- Rating and review patterns do not establish causation.
+- Helpful votes measure observed engagement, not necessarily quality.
+- These initial summaries do not identify the causes of dissatisfaction.
+- Further text/theme analysis is needed before recommending specific fixes.

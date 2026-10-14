@@ -1,0 +1,5 @@
+sentiment,review_count,percentage
+Positive,2842,56.84
+Neutral,1120,22.400000000000002
+Negative,1036,20.72
+Unclassified,2,0.04

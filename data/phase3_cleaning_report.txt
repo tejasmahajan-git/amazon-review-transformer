@@ -1,0 +1,30 @@
+AMAZON CUSTOMER INTELLIGENCE
+PHASE 3: DATA CLEANING REPORT
+=============================================
+
+Original row count: 5,000
+Clean dataset row count: 5,000
+Original column count: 17
+Clean dataset column count: 23
+
+CLEANING DECISIONS
+---------------------------------------------
+1. Original source dataset was not overwritten.
+2. Rows with missing prices were preserved.
+3. Rows with empty review text were preserved.
+4. Exact and potential duplicates were inspected,
+   but no rows were removed automatically.
+5. Unix millisecond timestamps were converted to dates.
+6. Rating groups: Low (1-2), Middle (3), High (4-5).
+7. Lowercase, trimmed text was saved in separate columns.
+8. Original review title and text were preserved.
+9. The _merge diagnostic column was excluded from output.
+
+LIMITATIONS
+---------------------------------------------
+The sample contains the first 5,000 source records and
+may not represent all Amazon Electronics reviews.
+Matching review text does not prove duplicate identity.
+Missing prices may limit price-related analyses.
+Text normalization does not identify review themes
+or determine sentiment.

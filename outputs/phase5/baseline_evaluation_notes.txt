@@ -1,0 +1,30 @@
+PHASE 5 BASELINE EVALUATION NOTES
+========================================
+
+Method
+- Sentiment uses a small, manually defined word lexicon.
+- Theme assignment uses predefined keyword lists.
+- A review may be assigned to more than one theme.
+
+Current coverage
+- Total reviews: 5,000
+- Empty/unclassified reviews: 2
+- Neutral baseline predictions: 1,120
+
+Known limitations
+- The lexicon does not understand context or sarcasm.
+- Negation such as 'not good' may be misclassified.
+- Words such as 'cheap' can be positive or negative by context.
+- Theme keywords can miss synonyms and indirect complaints.
+- A keyword match is not proof that a theme is the true cause.
+- Star ratings are not ground-truth sentiment labels.
+
+Recommended manual evaluation
+1. Randomly inspect examples from each sentiment class.
+2. Manually label a small, diverse set of reviews.
+3. Compare the baseline against those human labels.
+4. Record false positives, false negatives, and ambiguous cases.
+5. Expand or revise the lexicon and theme rules based on evidence.
+
+No accuracy, precision, recall, or F1 score is reported because
+no independent human-labelled evaluation set is supplied.

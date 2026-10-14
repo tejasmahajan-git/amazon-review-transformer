@@ -1,0 +1,6 @@
+The dataset contains the first 5,000 source records. Record order may affect which reviews are included.
+The results describe this sample and should not automatically be generalized to all Amazon Electronics reviews.
+The five most-represented products account for 1.36% of all rows. Product concentration may cause the overall results to reflect a small number of products.
+The first half has an average rating of 4.28; the second half has 4.27. A difference may indicate ordering effects, but does not prove sampling bias.
+Median review dates by source order: first half = 2019-12-22 00:13:20.131500032, second half = 2019-08-17 13:02:53.401500160. If these differ substantially, the source order may also be time-related.
+A first-record sample cannot establish population representativeness without knowing the source ordering and the population sampling process.

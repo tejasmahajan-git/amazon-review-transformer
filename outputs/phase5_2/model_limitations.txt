@@ -1,0 +1,22 @@
+DISTILBERT SENTIMENT EXPERIMENT
+
+Model:
+distilbert/distilbert-base-uncased-finetuned-sst-2-english
+
+Task:
+Binary positive/negative sentiment classification, fine-tuned on SST-2.
+
+Important limitations:
+- This model does not predict 1-5 star ratings.
+- It does not classify complaint themes such as battery or reliability.
+- Confidence scores are model scores, not proof that a prediction is correct.
+- Product reviews may differ from the model's training domain.
+- Long reviews may be truncated to fit the model input limit.
+- Agreement with the word-list baseline does not establish correctness.
+- The sample is stratified by rating and is not a random sample of all
+  Amazon Electronics reviews.
+
+Validation:
+Fill in human_sentiment in manual_validation_sample.csv using
+Positive or Negative after reading each review. Use Unclear if needed.
+Compare predictions with these human labels before making accuracy claims.
